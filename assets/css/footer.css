@@ -1,0 +1,72 @@
+.footer{
+	background-color: rgb(198, 210, 62);
+	width: 100%;
+	height: auto;
+	color: rgb(33, 91, 143);
+	border-top: 7px solid rgb(33, 91, 143);
+}
+
+.contact-sect{
+	position: relative;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.contact-sect h4, .contact-sect h5,
+.contact-sect h6, .contact-sect p, .contact-sect span{
+	padding: 0 10px;
+}
+
+.contact-sect h3{
+	text-align: center;
+	font-weight: 400;
+}
+
+.map-icon{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.icon a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.icon a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+.icon-edit{
+	font-size: 30px;
+}
+
+/* API Map */
+.api-map {
+    background-image: url("https://www.dropbox.com/s/spc12xoz8zwg9um/map.PNG?raw=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+/* CREATED BY WEBDEVLIAM */
+.created-by{
+	display: flex;
+	color: inherit;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.created-by p{
+	margin: auto auto auto 0;
+	font-size: 10px;
+}
+.created-by a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.liam-link:hover{
+	text-decoration: underline;
+}

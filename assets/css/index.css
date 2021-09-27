@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  color:  rgb(33, 91, 143);
+  background-color: rgb(255, 255, 255);
+}
+
+/* LANDING PAGE */
+.banner{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.banner img{
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+}
+
+/* INTRODUCTION  */
+.sewright-intro{
+  background-color: rgb(33, 91, 143);
+  color: rgb(198, 210, 62);
+  text-align: center;
+}
+
+.sewright-intro h4{
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.sewright-intro p{
+  padding: 0 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+/* SERVICE & REPAIRS */
+.serv-rep-sect{
+  background-color: rgb(255, 255, 255);
+}
+
+/* SUPPLY */
+.supply-sect{
+  background-color: rgb(33,91,143);
+  color: rgb(255, 255, 255);
+}
+
+/* CLIENT NETWORK */
+.cli-net-sect{
+  background-color: rgb(255, 255, 255);
+  color: rgb(33, 91, 143);
+}
+
+/* OVERALL INFO SECTIONS STYLES */
+.serv-rep-sect, .supply-sect, .cli-net-sect{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  box-shadow: 1px 0 0 0 rgba(33, 91, 143, .75), -1px 0 0 0 rgba(33, 91, 143, .75);
+}
+
+.serv-rep-info h3, .supply-info h3, .cli-net-info h3{
+  font-weight: 400;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.serv-rep-info p,  .supply-info p, .cli-net-info p{
+  padding: 0 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+/* OVERALL IMAGE STYLES */
+.serv-rep-img, .supply-img,
+.cli-net-img{
+  display: flex;
+}
+
+.serv-rep-img img, .supply-img img,
+.cli-net-img img{
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,26 @@
+.navbar{
+  position: fixed;
+  display: flex;
+  background-color: rgb(255,255,255);
+  width: 100%;
+  height: 130px;
+  border-bottom: 7px solid rgb(33, 91, 143);
+  box-shadow: 0 1px 51px 22px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.navbar a{
+  margin: 0 auto;
+  float: left;
+  text-decoration: none;
+}
+
+.logo{
+  height: 120px;
+  text-align: left;
+  padding: 15px;
+}
+
+.norm-logo{
+  display: none;
+}

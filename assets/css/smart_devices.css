@@ -1,0 +1,63 @@
+@media screen and (min-width:  319px){}
+
+@media screen and (min-width: 359px){
+
+  .logo, .navbar{
+    height: 120px;
+  }
+
+  .navmenu{
+    padding-top: 45px;
+    font-weight: 800;
+  }
+
+}
+
+@media screen and (min-width:  410px){}
+
+@media screen and (min-width: 575px){
+
+  .norm-logo{
+    display: inherit;
+  }
+
+  .smrt-logo{
+    display: none;
+  }
+
+  .sewright-intro p, .serv-rep-info p,
+  .supply-info p, .cli-net-info p{
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (min-width:  802px){
+
+  .serv-rep-sect, .cli-net-sect{
+    flex-direction: row;
+  }
+
+  .supply-sect{
+    flex-direction: row-reverse;
+  }
+
+  .serv-rep-info, .supply-info, .cli-net-info,
+  .serv-rep-img, .supply-img, .cli-net-img{
+    width: 49.999%;
+    margin: auto 0;
+  }
+
+}
+
+@media screen and (min-width:  1500px){
+
+  .navbar{
+    height: 150px;
+  }
+
+  .logo{
+    height: 140px;
+  }
+  
+}
