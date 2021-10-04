@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://sewrightsew.co.uk/sitemap.xml
