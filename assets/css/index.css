@@ -71,10 +71,14 @@ body{
   box-shadow: 1px 0 0 0 rgba(33, 91, 143, .75), -1px 0 0 0 rgba(33, 91, 143, .75);
 }
 
-.serv-rep-info h3, .supply-info h3, .cli-net-info h3{
+.serv-rep-info h2, .supply-info h2, .cli-net-info h2{
   font-weight: 400;
   text-decoration: underline;
   margin-bottom: 10px;
+}
+
+.sect-icon i{
+  font-size: 50px;
 }
 
 .serv-rep-info p,  .supply-info p, .cli-net-info p{

@@ -41,15 +41,6 @@
 	font-size: 30px;
 }
 
-/* API Map */
-.api-map {
-    background-image: url("https://www.dropbox.com/s/spc12xoz8zwg9um/map.PNG?raw=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-}
-
 /* CREATED BY WEBDEVLIAM */
 .created-by{
 	display: flex;
